@@ -13,6 +13,4 @@
 #  CSS3
 #  JavaScript
 # Setup:-
-#  Clone the repository: git clone https://github.com/your-PrasukShah/OIBSIP.git
-#  Navigate to the project directory: cd OIBSIP
 #  Open index.html in your web browser to view the website.
