@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prasuk</title>
+    <link rel="icon" href="https://i.ibb.co/zRsTj3p/Frame-1-37.png">
+
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" class="stylesheet">
+</head> 
+<body>
+    <script>
+        var slideIndex = 0;
+        showSlides();
+      
+        function showSlides() {
+          var i;
+          var slides = document.getElementsByClassName("slide");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          slides[slideIndex-1].style.display = "block";  
+          setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+      
+        function plusSlides(n) {
+          slideIndex += n;
+          var slides = document.getElementsByClassName("slide");
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          if (slideIndex < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+          }
+          slides[slideIndex-1].style.display = "block";  
+        }
+    </script>
+    <!-------------------------- Header Area -------------------------->
+    <header class="header-area">
+        <div class="container">
+            <div class="header">
+                <ul class="navbar">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#about">About Me</a></li>
+                </ul>
+                
+                <div class="menu_icon">
+                    <i class="fa fa-bars"></i>
+                </div>
+
+            </div>
+        </div> 
+    </header>
+ 
+    <!-------------------------- Home Page -------------------------->
+    <div class="FirstElement" id="home">
+        <div class="profile-photo">
+            <img src="files/Profile Photo.jpg" alt="profile picture">
+        </div>
+        <div class="profile-text">
+            <h5>Hi I'm </h5><br>
+            <h1>Prasuk</h1><br>
+            <p>Greetings from my portfolio webpage! I'm a driven and aspirational software engineer that 
+                wants to push the limits of technology and develop novel solutions.I have a strong passion 
+                for problem-solving and coding, and I'm always looking for new possibilities to learn and advance in this dynamic industry.
+            </p>
+            
+            <div class="btn-group">
+                <a href="Prasuk Resume1.pdf" class="btn  ">Download CV</a>
+                <a href="mailto:pashah2003@gmail.com" class="btn">Contact</a>
+            </div>
+
+            <div class="social">
+                <a href="mailto:pashah2003@gmail.com"><i class="fa fa-envelope"></i></a>
+                <a href="https://github.com/PrasukShah"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/prasuk-shah-18b014223/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </div>
+
+        <!-------------------------- About Section -------------------------->
+    <section class="about-area" id="about">
+        <div class="container">
+            <div class="about">
+                
+                <div class="about-content">
+                    <h4>About Me</h4>
+                    <ul>
+                      <li>I'm presently working on my computer science and engineering bachelor's degree, which is in its last year.
+                        I have developed a strong foundation in software development, specializing in HTML, CSS, Linux, Java and other related fields.
+                      </li>
+                      <li> My proficiency in these fields enables me to take on tasks with assurance and provide excellent outcomes.
+                        I firmly think that in the dynamic field of software engineering, it is essential to never stop learning and being flexible.
+                      </li>
+                      <li> I proactively pursue prospects to enhance my expertise and abilities, adopting novel technology and methodologies.
+                        Please go over my work and contact me with any inquiries or suggestions for a joint project. 
+                      </li>
+                    </ul>
+                </div>
+                                  
+                <div class="about-skills">
+                    <ul>
+                        <li>Name: Prasuk</li>
+                        <li>Age: 20</li>     
+                        <li>From: India</li>
+                        <li>Email: pashah2003@gmail.com</li>
+                        <li>Availabiltiy: Fulltime</li>
+                        <!-- <li>Experience&lt;1yr</li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+        <!-------------- Education & Internship -------------->
+    <section class="education-content" id="education">
+        <div class="container">
+            <div class="row">
+                <div class="education ">
+                    <h3 class="title">Education</h3>
+                    <div class="row">
+                        <div class="timeline-box">
+                            <div class="timeline">
+
+                                <!-- Timeline-item -->
+                                <div class="timeline-item">
+                                    <div class="circle-dot"></div>
+                                    <h3 class="timeline-title">
+                                        B.Tech CSE-7.6 CGPA
+                                    </h3>
+                                    <h4 class="timeline-title">Unitedworld Institue of Technology, Karnavati University</h4>
+                                    <h4 class="timeline-title">
+                                        <i class="fa fa-calendar"></i> 2021-2025
+                                    </h4>
+                                </div> 
+                                <!-- Timeline-item -->
+                                <div class="timeline-item">
+                                    <div class="circle-dot"></div> <!--<i class="fa fa-coffee"></i>-->
+                                    <h3 class="timeline-title">HSC-87.4%</h3>
+                                    <h4 class="timeline-title">Delhi Public School, Gandhinagar</h4>
+                                    <h4 class="timeline-title">
+                                        <i class="fa fa-calendar"></i> 2020-2021
+                                    </h4>
+                                </div>
+                                <!-- Timeline-item -->
+                                <div class="timeline-item">
+                                    <div class="circle-dot"></div>
+                                    <h3 class="timeline-title">SSLC-85.4%</h3>
+                                    <h4 class="timeline-title">Delhi Public School, Gandhinara</h4>
+                                    <h4 class="timeline-title">
+                                        <i class="fa fa-calendar"></i> 2018-2019
+                                    </h4>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="internship">
+                    <h3 class="title">Internship</h3>
+                    <div class="row">
+                        <div class="timeline-box">
+                            <div class="timeline">
+                                
+                                <!-- Timeline-item -->
+                                <div class="timeline-item">
+                                    <div class="circle-dot"></div>
+                                    <h3 class="timeline-title">
+                                        WEB DEVELOPMENT
+                                    </h3>
+                                    <h4 class="timeline-title">Karnavati University</h4>
+                                    <h4 class="timeline-title">
+                                        <i class="fa fa-calendar"></i> February 2023 - June 2023
+                                    </h4>
+                                    <li class="timeline-text">Design and Development of Web portal for USCI-Technical clubs, committees and Professional
+                                        Societies (ACM & IEEE). Develop a responsive website using HTML
+                                        CSS and JavaScript.</li>
+                                </div> 
+                                <!-- Timeline-item -->
+                                <div class="timeline-item">
+                                    <div class="circle-dot"></div>
+                                    <!-- <h3 class="timeline-title">PCB LAYOUT DESIGN AND FABRICATION</h3> -->
+                                    <h4 class="timeline-title">Oasis Infotybe</h4>
+                                    <h4 class="timeline-title">
+                                        <i class="fa fa-calendar"></i> May 2024 - June 2024
+                                    </h4>
+                                    <li class="timeline-text">Developed and Designed a personal portfolio website using HTML, CSS, and JavaScript. The project
+                                        involved creating a visually appealing layout, integrating animations for enhanced user experience, and showcasing my 
+                                        previous work. It demonstrated my proficiency in frontend web development and design principles.</li>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+        <!-------------------------- Projects -------------------------->
+    <section class="project-content" id="projects">
+        <div class="container">
+            <div class="project-title">
+                <h4>My Projects</h4>
+                <p>Explore my work, which combine innovation with imagination.</p>
+            </div>
+            <div class="slider">
+                <div class="slide">
+                    <!-- 1st Project -->
+                    <div class="content">
+                        <i class="fa fa-brush"></i>
+                        <h4>Art Gallery Website</h4>
+                        <p>This a website for art gallery containg arts seperated according to the genre of the art with signup and login functions.
+                        Made using HTML, CSS, JavaScript and php.
+                    </div>
+                </div>
+                <div class="slide">
+                    <!-- 2nd Project -->
+                    <div class="content">
+                        <i class="fa fa-smile"></i>
+                        <h4>Face Emotion Recognition</h4>
+                        <p>It is a machine learning model for classifying facial emotions. It can be classified through an image or can be predicted in 
+                        real time.</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <!-- 4th Project -->
+                    <div class="content">
+                        <i class="fa fa-car"></i>
+                        <h4>Car Number Plate Detecion </h4>
+                        <p>The project aims to develop a machine learning model for car number plate detection in images, crucial for toll collection, 
+                        traffic monitoring, and law enforcement. It utilizes deep learning techniques to accurately detect and localize number 
+                        plates, enhancing efficiency in various applications.</p>
+                    </div>
+                </div>
+                    <span class="prev" onclick="plusSlides(-1)">&#10094;</span>
+                    <span class="next" onclick="plusSlides(1)">&#10095;</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        
+    <!-------------------------- JS -------------------------->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+    
+    <!-------------------------- Footer section -------------------------->
+    <hr class="footer-line">
+    <footer class="footer">
+            <p>Thank you for visiting my website! I appreciate your support and hope to see you again soon.</p>
+    </footer>
+</body>
+</html>
