@@ -16,5 +16,3 @@
 #  Clone the repository: git clone https://github.com/your-PrasukShah/portfolio-website.git
 #  Navigate to the project directory: cd portfolio-website
 #  Open index.html in your web browser to view the website.
-# Live Demo:-
-#  Check out the live demo [here](https://your-PrasukShah.github.io/index.html).
